@@ -1,5 +1,13 @@
 const CLIENT_ID = import.meta.env.VITE_SPOTIFY_CLIENT_ID;
-const REDIRECT_URI = "http://127.0.0.1:5173/";
+const REDIRECT_URI =
+
+  window.location.hostname === "localhost" ||
+
+  window.location.hostname === "127.0.0.1"
+
+    ? "http://127.0.0.1:5173/"
+
+    : "https://vibe-sync-ai-gray.vercel.app/";
 const SCOPES = [
   "user-read-playback-state",
   "user-modify-playback-state",
