@@ -2,7 +2,7 @@
 
 Developed by Andesite Studios.
 <p align="center">
-  <a href="YOUR_VERCEL_URL">
+  <a href="https://vibe-sync-ai-gray.vercel.app/">
     <img src="https://img.shields.io/badge/Live_Demo-VibeSync_AI-blue?style=for-the-badge" />
   </a>
 </p>
