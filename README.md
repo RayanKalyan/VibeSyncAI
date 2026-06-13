@@ -1,5 +1,13 @@
 # VibeSync AI 🎵
 
+Developed by Andesite Studios.
+<p align="center">
+  <a href="YOUR_VERCEL_URL">
+    <img src="https://img.shields.io/badge/Live_Demo-VibeSync_AI-blue?style=for-the-badge" />
+  </a>
+</p>
+
+
 > *Translate emotion into sound.*
 
 **VibeSync AI** is a cinematic, AI-powered Spotify recommendation engine built to transform natural language emotions into hyper-personalized music experiences.  
@@ -42,8 +50,9 @@ Implements **Spotify OAuth 2.0 with PKCE**, ensuring secure client-side authenti
 ### 🌍 Global Market Override
 Forces `market=US` to unlock broader Spotify catalog access and global trending tracks.
 
-### 🥚 Hidden Easter Egg System
-Contains hidden session-based vectors (`2057/31`) that dynamically evolve depending on user interaction patterns.
+🎯 Context-Aware Recommendation Pipeline
+
+Combines user prompts with AI-generated musical attributes to produce highly personalized Spotify recommendations beyond traditional keyword-based search.
 
 ---
 
@@ -153,11 +162,11 @@ Add them to your `.gitignore`:
 
 # 📸 Preview
 
-> Add screenshots or demo GIFs here
+<p align="center">
+  <img src="./preview1.png" width="48%">
+  <img src="./preview2.png" width="48%">
+</p>
 
-```md
-![Preview](./preview.png)
-```
 
 ---
 
