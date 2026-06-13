@@ -1,16 +1,192 @@
-# React + Vite
+# VibeSync AI 🎵
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> *Translate emotion into sound.*
 
-Currently, two official plugins are available:
+**VibeSync AI** is a cinematic, AI-powered Spotify recommendation engine built to transform natural language emotions into hyper-personalized music experiences.  
+Instead of searching by genre or artist, users describe a *feeling*, a *scene*, or a *moment* — and VibeSync generates a matching sonic atmosphere in real time.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Developed by **Andesite Studios**.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ What Makes It Different
 
-## Expanding the ESLint configuration
+VibeSync uses **Google Gemini** to interpret emotional prompts such as:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- *"midnight drifting through Tokyo"*
+- *"melancholic synthwave with neon rain vibes"*
+- *"songs that feel like the end credits of a sci-fi movie"*
+
+The AI converts those prompts into structured audio characteristics which are then used to generate highly accurate Spotify recommendations.
+
+Traditional music discovery is keyword-based.  
+VibeSync is **emotion-based**.
+
+---
+
+# 🚀 Features
+
+### 🎧 AI-Powered Vibe Detection
+Uses **Google Gemini API** to understand abstract emotional prompts and convert them into playlist-ready music profiles.
+
+### 🌌 Cinematic Interface
+Built with:
+- Glassmorphism UI
+- Ambient lighting effects
+- Smooth transitions & micro-interactions
+- Fully responsive modern layout
+
+### 🔐 Secure Spotify Authentication
+Implements **Spotify OAuth 2.0 with PKCE**, ensuring secure client-side authentication without exposing secrets.
+
+### 🌍 Global Market Override
+Forces `market=US` to unlock broader Spotify catalog access and global trending tracks.
+
+### 🥚 Hidden Easter Egg System
+Contains hidden session-based vectors (`2057/31`) that dynamically evolve depending on user interaction patterns.
+
+---
+
+# 🛠 Tech Stack
+
+| Layer | Technology |
+|---|---|
+| Frontend | React + Vite |
+| Styling | Tailwind CSS |
+| AI Engine | Google Gemini API |
+| Authentication | Spotify OAuth 2.0 (PKCE) |
+| Deployment | Vercel |
+
+---
+
+# ⚙️ Local Development Setup
+
+## 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/RayanKalyan/VibeSyncAI.git
+cd VibeSyncAI
+```
+
+---
+
+## 2️⃣ Install Dependencies
+
+```bash
+npm install
+```
+
+---
+
+## 3️⃣ Configure Environment Variables
+
+Create a `.env.local` file in the root directory:
+
+```env
+VITE_SPOTIFY_CLIENT_ID=your_spotify_client_id
+VITE_GEMINI_API_KEY=your_google_api_key
+```
+
+---
+
+## 4️⃣ Run the Development Server
+
+```bash
+npm run dev
+```
+
+The application should now be running locally on:
+
+```bash
+http://localhost:5173
+```
+
+---
+
+# 🔑 Spotify Developer Setup
+
+To enable Spotify authentication:
+
+1. Create an app on the Spotify Developer Dashboard.
+2. Copy your **Client ID**.
+3. Add the following Redirect URI:
+
+```bash
+http://localhost:5173
+```
+
+For production deployment, also add your Vercel domain redirect URI.
+
+---
+
+# 🚀 Deployment
+
+VibeSync AI is optimized for deployment on **Vercel**.
+
+## Deploy Steps
+
+1. Import the repository into Vercel
+2. Add your environment variables:
+   - `VITE_SPOTIFY_CLIENT_ID`
+   - `VITE_GEMINI_API_KEY`
+3. Redeploy the project
+4. Add your Vercel production URL to Spotify Redirect URIs
+
+---
+
+# 🔒 Security Notice
+
+This project uses client-side environment variables.
+
+Never commit:
+- `.env`
+- `.env.local`
+
+Add them to your `.gitignore`:
+
+```gitignore
+.env
+.env.local
+```
+
+---
+
+# 📸 Preview
+
+> Add screenshots or demo GIFs here
+
+```md
+![Preview](./preview.png)
+```
+
+---
+
+# 🧠 Future Roadmap
+
+- AI-generated playlist covers
+- Multi-vibe blending
+- Live listening analytics
+- Social playlist sharing
+- Mood memory system
+- Cross-platform sync
+
+---
+
+# 🤝 Contributing
+
+Contributions, feature ideas, and pull requests are welcome.
+
+If you'd like to improve VibeSync AI, feel free to fork the repo and submit a PR.
+
+---
+
+# 📄 License
+
+MIT License © 2026 Andesite Studios
+
+---
+
+# 👨‍💻 Developer
+
+Built by **Rayan Kalyan**  
+Andesite Studios
